@@ -30,3 +30,4 @@ def from_base_26(s):
     for i,n in enumerate(str(s)[::-1]):
         result += (letters.index(n)+1) * 26**i
     return str(result)
+
